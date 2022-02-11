@@ -1,0 +1,19 @@
+/* CSS Stylesheet for this setup */
+/*---- Created the font-face from webpack will configure this one -----*/
+@font-face {
+	font-family: 'MyFont';
+	src: url('./bakery.otf') format('oft'),
+		 url('./bakery.ttf') format('ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+.text-red {
+	color: red;
+	background: url('./image.gif');
+	font-family: 'MyFont';
+}
+
+.text-blue {
+	color: blue;
+}
